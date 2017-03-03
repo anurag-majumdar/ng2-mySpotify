@@ -1,0 +1,38 @@
+#music{
+    overflow: hidden;
+    background-image: linear-gradient(rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.7)), url("https://static.pexels.com/photos/6319/smartphone-vintage-technology-music.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+    position: absolute;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 80vh;
+    width: 100%;
+    z-index: -10;
+}
+
+/*#music-overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+}*/
+
+.spotify-header{
+    position: relative;
+    margin-top: 250px;
+    text-align: center;
+}
+
+p{
+    position: relative;
+    
+    /*color: white;*/
+}

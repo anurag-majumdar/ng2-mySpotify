@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+  color: #EEEEEE;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height:100%; 
+    position:relative;
+}
+
+.wrap {
+    padding: 20px;
+    min-height: 100%;
+    margin-bottom: 0 auto 0;
+}
+
+.footer,
+.push {
+  height: 50px;
+}
+
+.footer{
+    font-size: 1.1em;
+    background-color: #111111;
+    /*background: #42A5F5;*/
+    color: white;
+    line-height: 50px;
+    bottom: 0;
+}
